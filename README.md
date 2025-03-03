@@ -68,44 +68,52 @@ cat /etc/bandit_pass/bandit17
 - comandos: nc -lvpn 4444, ./suconnect 4444
 >clave: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 22.  level 22
-- comandos: 
->clave:
+- comandos: cd /etc/cron.d, cat /usr/bin/cronjob_bandit22.sh, cd /tmp
+- cat t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+>clave: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 23.  level 23
--  comandos:
->clave:
+-  comandos: echo I am user bandit23|  md5sum | cut -d ' ' -f 1
+- cd /tmp, cat 8ca319486bfbbc3663ea0fbe81326349
+>clave: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
 24.  level 24
-- comandos:
->clave:
+- comandos:echo "cat /etc/bandit_pass/bandit24 > /tmp/russ_test.txt" > script.sh
+- chmod 777 script.sh, cat /tmp/russ_test.txt
+>clave:gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 25.  level 25
-- comannos:
->clave:
+- comannos:cd /tmp, mkdir testeo, nano testeo.sh, chmod 777 testeo.sh, ./testeo.sh | nc 127.0.0.1 30002
+> clave:iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
 26.  level 26
-- comandos:
->clave:
+- comandos:ssh -p 2220 -i bandit26.sshkey bandit26@bandit.labs.overthewire.org, :e /etc/bandit_pass/bandit26
+>clave: s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
 27. level 27
-- comandos:
->clave:
+- comandos: shell, id, ./bandit27-do cat /etc/bandit_pass/bandit27
+>clave: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
 28.  level 28
-- comandos:
->clave:
+- comados:git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo, cd /tmp, mkdir test_01
+- cd test_01, cd repo,cat README
+>clave:Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
 29.  level 29
-- comandos:
->clave:
+- comandos: cd /tmp, mkdir temp_03,cd mkdir temp_03, cd repo
+- git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo,git log 
+- git show 3621de89d8eac9d3b64302bfb2dc67e9a566decd
+>clave:4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
 30.  level 30
-- comandos:
->clave:
+- comandos:cd /tmp, mkdir temp_04,cd mkdir temp_04, cd repo
+- git clone ssh://bandit29-git@localhost:2220/home/bandit29-git/repo,git log
+-  git branch -a,git checkout remotes/origin/dev, cat README.md 
+>clave:qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
 31.  level 31
--comandos:
->clave:
+-comandos:cd /tmp, mkdir temp_05,cd mkdir temp_05, cd repo
+git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo ,git tag
+- git show secret
+>clave:fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
 32.  level 32
 - comandos:
->clave:
+> clave:
 33.  level 33
 -comandos:
 >clave:
-34.  level 34
--comandos:
->clave:
+
 
 
 
