@@ -103,16 +103,19 @@ cat /etc/bandit_pass/bandit17
 -  git branch -a,git checkout remotes/origin/dev, cat README.md 
 >clave:qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
 31.  level 31
--comandos:cd /tmp, mkdir temp_05,cd mkdir temp_05, cd repo
-git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo ,git tag
+- comandos:cd /tmp, mkdir temp_05,cd mkdir temp_05, cd repo
+- git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo ,git tag
 - git show secret
 >clave:fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
 32.  level 32
-- comandos:
-> clave:
+- comandos:cd /tmp, mkdir temp_07, git clone ssh://bandit31-git@localhost:2220/home/bandit31-git/repo, 
+- cd repo, nano key.txt, git add-f key.txt,git commit -m "Upload a file"
+- git push -u origin master
+> clave:3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K 
 33.  level 33
--comandos:
->clave:
+- comandos:$0, cat /etc/bandit_pass/bandit33
+>clave:tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
+
 
 
 
