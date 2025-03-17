@@ -136,8 +136,8 @@ cat /etc/bandit_pass/bandit17
 > clave: szo7HDB88w
 7. LEVEL 7
 - comandos:./leviathan6, for i in {0000..9999}; do ./leviathan6 $i | grep -v "Wrong"; done
-- whoami, cat /etc/leviathan_pass/leviathan6
-> clave: 
+- whoami, cat /etc/leviathan_pass/leviathan7
+> clave: qEs5Io5yM8
 # KRYPTON-Ejercicios
 1.  level 1
 - comandos: Decodificamos S1JZUFRPTklTR1JFQVQ= en base64
