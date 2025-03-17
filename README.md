@@ -114,8 +114,56 @@ cat /etc/bandit_pass/bandit17
 > clave:3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K 
 33.  level 33
 - comandos:$0, cat /etc/bandit_pass/bandit33
->clave:tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
-
+> clave:tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
+# LEVIATHAN-EJERCICIOS 
+1.  LEVEL 1
+- comandos: ls -la, grep "leviathan" bookmarks.html, cd .backup
+> clave: 3QJ3TgzHDq
+2.  LEVEL 2
+- comandos:ls -la, ltrace ./check, password:sex,./check, cat /etc/leviathan_pass/leviathan2
+> clave: NsN1HwFoyN
+3.  LEVEL 3
+- comandos:cd /tmp, mkdir testeo, touch "pro;bash", ~/printfile "pro;bash", whoami, cat /etc/leviathan_pass/leviathan3
+> clave:f0n8h2iWLP
+4.  LEVEL 4
+- comandos: ltrace ./level3,password snlprintf, whoami, cat /etc/leviathan_pass/leviathan4
+> clave: WG1egElCvO
+5 .LEVEL 5
+- comandos: cd .trash, ./bin, traducimos de binario a texto
+> clave: 0dyxT7F4QD
+6. LEVEL 6 
+- comandos: ls,ltrace ./leviathan5, ln -s "/etc/leviathan_pass/leviathan6" "/tmp/file.log"
+> clave: szo7HDB88w
+7. LEVEL 7
+- comandos:./leviathan6, for i in {0000..9999}; do ./leviathan6 $i | grep -v "Wrong"; done
+- whoami, cat /etc/leviathan_pass/leviathan6
+> clave: 
+# KRYPTON-Ejercicios
+1.  level 1
+- comandos: Decodificamos S1JZUFRPTklTR1JFQVQ= en base64
+> clave: KRYPTONISGREAT
+2. level 2
+- comandos:cd /krypton/, cd krypton1, ls, cat krypton2
+- decodificamos YRIRY GJB CNFFJBEQ EBGGRA en ROT13
+> clave: ROTTEN
+3. level 3
+- comandos:cd /tmp, mkdir testeo, cd testeo, ln -s /krypton/krypton2/keyfile.dat, chmod 777
+-  /krypton/krypton2/encrypt /etc/issue, touch text, nano text "copiamos:ABCDEFGHIJKLMNOPQRSTUVWXYZ "
+- /krypton/krypton2/encrypt text, cat ciphertext "nos da el texto de text codificado"
+- cat /krypton/krypton2/krypton3 | tr "[MNOPQRSTUVWXYZABCDEFGHIJKL]"" "[A-Z]"
+> clave: CAESARISEASY
+4. level 4
+- comandos:
+> clave: 
+5. level 5
+- comandos:
+> clave: 
+6. level 6
+- comandos:
+> clave: 
+7. level 7
+- comandos:
+> clave:
 
 
 
